@@ -17,9 +17,9 @@ RGBLIGHT_ENABLE = no
 VIAL_ENABLE = yes
 VIAL_TAP_DANCE_ENABLE = yes
 VIAL_COMBO_ENABLE = yes
+VIA_ENABLE = yes
 
 # the other stuff
-#VIA_ENABLE = yes
 #VIAL_ENABLE = yes
 #VIALRGB_ENABLE = yes
 
