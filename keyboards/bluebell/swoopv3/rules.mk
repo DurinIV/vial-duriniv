@@ -5,7 +5,6 @@ MCU = atmega32u4
 BOOTLOADER = caterina
 
 VIA_ENABLE = yes
-VIAL_ENABLE = yes
 
 MIDI_ENABLE = no
 SPLIT_KEYBOARD = yes

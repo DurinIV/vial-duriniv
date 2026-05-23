@@ -1,12 +1,13 @@
 {
-  "keyboard_name": "bluebell/swoopv3",
-  "url": "https://github.com/jimmerricks/swoop",
-  "maintainer": "jmnw",
-  "manufacturer": "jmnw",
-  "usb": {
-    "vid": "0x1804",
-    "pid": "0x3046",
-    "device_version": "3.0.0"
+   "keyboard_name": "swoopv3",
+  "manufacturer": "bluebell",
+  "maintainer": "vial",
+  "processor": "atmega32u4",
+  "bootloader": "caterina",
+
+  "matrix_size": {
+    "rows": 8,
+    "cols": 5
   },
   "layouts": {
     "LAYOUT_split_3x5_3": {
