@@ -5,6 +5,12 @@
   "processor": "atmega32u4",
   "bootloader": "caterina",
 
+  "usb": {
+    "vid": "0x1804",
+    "pid": "0x3046",
+    "device_version": "1.0.0"
+  },
+
   "matrix_size": {
     "rows": 8,
     "cols": 5

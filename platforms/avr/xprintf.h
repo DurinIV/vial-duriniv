@@ -47,9 +47,15 @@ void xitoa(long value, char radix, char width);
 */
 
 /*-----------------------------------------------------------------------------*/
-#define xprintf(format, ...) __xprintf(PSTR(format), ##__VA_ARGS__)
-#define xsprintf(str, format, ...) __xsprintf(str, PSTR(format), ##__VA_ARGS__)
-#define xfprintf(func, format, ...) __xfprintf(func, PSTR(format), ##__VA_ARGS__)
+#ifndef xprintf
+#    define xprintf(format, ...) __xprintf(PSTR(format), ##__VA_ARGS__)
+#endif
+#ifndef xsprintf
+#    define xsprintf(str, format, ...) __xsprintf(str, PSTR(format), ##__VA_ARGS__)
+#endif
+#ifndef xfprintf
+#    define xfprintf(func, format, ...) __xfprintf(func, PSTR(format), ##__VA_ARGS__)
+#endif
 
 void __xprintf(const char *format_p, ...); /* Send formatted string to the registered device */
 // void __xsprintf(char*, const char *format_p, ...);	/* Put formatted string to the memory */
