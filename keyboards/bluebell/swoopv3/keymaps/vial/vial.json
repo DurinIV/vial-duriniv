@@ -2,7 +2,6 @@
   "vial": {
     "midi": "advanced"
   },
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 5
