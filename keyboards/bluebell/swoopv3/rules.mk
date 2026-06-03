@@ -3,5 +3,4 @@ MCU = atmega32u4
 
 # Bootloader selection
 BOOTLOADER = caterina
-
-SPLIT_KEYBOARD = yes
+SEND_STRING_ENABLE = yes
