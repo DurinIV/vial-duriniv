@@ -17,10 +17,12 @@
 extern MidiDevice midi_device;
 
 enum layers {
+
     _PULL1,
     _PUSH1,
     _PULL2,
     _PUSH2
+
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
