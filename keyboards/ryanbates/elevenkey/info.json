@@ -2,6 +2,8 @@
   "keyboard_name": "elevenkey",
   "url": "https://www.tindie.com/products/ryanbatesrbg/pcb-for-programmable-macro-keyboard-encoders-v2/",
   "maintainer": "qmk",
+  "manufacturer": "RyanBatesMacropad",
+  "development_board": "promicro",
   "layouts": {
     "LAYOUT": {
       "layout": [
